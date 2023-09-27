@@ -1,0 +1,158 @@
+body{
+background-image: linear-gradient(100deg,rgb(15, 40, 122),rgba(0, 238, 255, 0.637));
+width: 1500px;
+height: 669px;
+position: relative;right: 10px;
+text-transform: capitalize;
+}
+.box{
+width: 300px;
+height: 450px;
+
+background-color: rgba(10, 220, 220, 0.041);
+position: relative;left: 590px;
+top: 100px;
+border: 7px  solid rgb(37, 181, 224);
+z-index: 2;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+}
+.inp1,.inp2{
+width: 170px;
+height: 5px;
+position: relative;left: 33px;
+
+border: none;
+outline: none;
+}
+.label1{
+    position: relative;
+top: 67px;
+
+}
+.inp1{
+    position: relative;bottom: -22px;
+    
+}
+.inp3{
+    position: relative;top: 50px;
+    left: 35px;
+}
+.inp1:focus{
+    border: 4px solid cyan;
+    height: 20px;
+    transition: 2s;
+}
+.inp2:focus{
+    border: 4px solid cyan;
+    height: 20px;
+    transition: 2s;
+}
+.inp2{
+    position: relative;top: -19px;
+    right: 2px;
+}
+p{
+ text-transform: capitalize;
+ font-size:20px;
+
+}
+label{
+    position: relative;left: 67px;
+}
+
+.title{
+    width: 130px;
+    font-size: 30px;
+    color: rgb(54, 46, 35);
+    position: relative;bottom: 0px;left: 84px;
+  text-align: center;
+background-color: rgba(0, 255, 255, 0.493);
+text-transform: capitalize;
+}
+.signin{
+    font-size: 25px;
+    rotate: 50deg;
+    width: 70px;
+    position: relative;top:-50px;
+    left: 240px;
+    text-transform: capitalize;
+}
+button{
+position: relative;
+left: 70px;
+top: 70px;
+margin: 0px;
+padding: 0px;
+width: 80px;
+height: 40px;
+color: rgb(0, 0, 0);
+background-color: rgb(9, 250, 158);
+font-size: 16px;
+font-style: normal;
+}
+button:hover{
+    background-color: rgb(3, 99, 94);
+}
+label  p::selection{
+background-color: aqua;
+color: rgb(0, 38, 255);
+}
+label{
+cursor: text;
+}
+.signlink{
+    font-size: 22px;
+
+position: relative;
+left: 27px;
+top: 100px;
+}
+footer{
+    position: relative;top: 120px;
+    background-color: rgba(0, 0, 0, 0.425);
+    height: 50px;
+    
+}
+footer h3{
+    position: relative;top: 0px;
+}
+footer hr{
+    width: 45px;
+    position: relative;left: 10px;
+    bottom: 40px;
+    rotate: 90deg;
+    background-color: rgb(255, 255, 255)
+    
+}
+footer p{
+    position: relative;left: 170px;
+    bottom: 65px;
+    font-size: 15px;
+}
+.label2{
+    top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sifo{
+position: relative;top:149px;
+}
+
